@@ -3,6 +3,7 @@
 
 <head>
     <title>images</title>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
    <h1>IMAGES</h1>
@@ -36,15 +37,13 @@ C
 
 <br><br><br><br>
 
-<table border="1" cellpadding="8" cellspacing="0">
-    <colgroup>
-        <col span="2" style="background-color:red">
-    <col style="background-color:yellow">
-    </colgroup>
+
+<table>
+    <caption>Student Details</caption>
     <tr>
-        <th>Names</th>
-        <th>Ages</th>
-        <th>DOB</th>
+        <th  style="width: 50%;">Names</th>
+        <th colspan="2">Age and dob</th>
+        <!-- <th>DOB</th>    -->
         <th>Gender</th>
         <th>City</th>
     </tr>
@@ -60,7 +59,24 @@ C
         <td>30</td>
         <td>1993-05-15</td>
         <td>Female</td>
+    </tr>
+</table>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
 
 
+<form action="https://www.sastra.edu">
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname"><br>
+    <input type="submit" value="Submit">  
+</form>
 </body>
 </html>
